@@ -15,7 +15,7 @@ function DataUpload() {
     formData.append('file', file);
 
     try {
-      const response = await fetch('http://localhost:5000/api/upload', {
+      const response = await fetch('https://server1-1-jr4d.onrender.com', {
         method: 'POST',
         body: formData,
       });
