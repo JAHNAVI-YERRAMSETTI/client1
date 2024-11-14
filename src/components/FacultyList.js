@@ -9,7 +9,7 @@ function FacultyList() {
   const [position, setPosition] = useState('');
   const [editingId, setEditingId] = useState(null);
 
-  const API_URL = `https://server1-1-jr4d.onrender.com`;
+  const API_URL = `https://server1-1-jr4d.onrender.com/api/faculty`;
 
   useEffect(() => {
     fetchFaculty();
