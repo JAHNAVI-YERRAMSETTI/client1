@@ -1,11 +1,10 @@
-.data-upload {
-    padding: 20px;
-    text-align: center;
-  }
+body .data-upload {
+    background-color: #000000;
+}
   
   .data-upload h2 {
-    font-size: 24px;
-    color: #333;
+    font-size: 28px;
+    color: #ff0000;
   }
   
   .data-upload form {
@@ -15,20 +14,24 @@
   }
   
   input[type="file"] {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    padding: 10px;
   }
   
   .upload-button {
-    background-color: #007bff;
+    background-color: #00ff00;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 25px;
     border: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s ease;
     cursor: pointer;
   }
   
   .upload-button:hover {
-    background-color: #0056b3;
+    background-color: #ff0000;
+    transform: scale(1.05);
   }
   
